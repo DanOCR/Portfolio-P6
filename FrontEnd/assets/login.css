@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&family=Work+Sans&display=swap');
+
+* {
+    font-family: "syne", sans-serif;
+}
+
+body,h1,p {
+    margin: 0%;
+
+}
+
+h1, p {
+    color: #B1663C;
+}
+
+h1 {
+    font-weight: 800;
+    margin-top: 50px;
+    size: 22px;
+    line-height: 26.4px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+body {
+    background-color: #FFFEF8;
+}
+
+p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+
+.login {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.grey {
+    background: #FFFEF8;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 8px;
+}
+
+nav {
+    display: flex;
+    margin-right: 100px;
+    margin-top: 60px;
+    gap: 45px;
+}
+
+a {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+img {
+    width: 19.36px;
+    height: 19.36px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 820px;
+}
+
+h2 {
+    margin: 0 0 50px 130px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1D6154;
+}
+
+h3 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    align-self: flex-start;
+}
+
+input {
+    width: 379px;
+    height: 51px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+    border-style: none;
+}
+
+.password {
+    margin-top: 30px;
+}
+
+.forget {
+    text-decoration: underline;
+    color: #3D3D3D;;
+}
+
+button {
+    margin: 37px 0 15px 0;
+    width: 179px;
+    height: 36px;
+    background: #1D6154;
+    border-radius: 60px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+footer {
+    display: flex;
+    padding: 24px 107px 0 0;
+    justify-content: flex-end;
+    background-color: white;
+    height: 40px;
+}
+
+footer a {
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
